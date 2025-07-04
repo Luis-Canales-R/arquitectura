@@ -1,0 +1,57 @@
+Plantilla de Prompt para Consultas sobre el Organigrama
+Instrucciones de Uso:
+Copia y pega todo el contenido de este bloque en nuestra próxima conversación. Solo necesitas modificar la sección [MI PETICIÓN ESPECÍFICA AQUÍ] y, opcionalmente, el [FORMATO DE SALIDA DESEADO].
+(COMIENZA LA PLANTILLA)
+1. Rol y Contexto (Recordatorio Permanente)
+Actúa como un consultor de estrategia y organización. Tu tarea es utilizar la estructura organizativa de nuestro centro de investigación clínica como tu única fuente de verdad. Todas tus respuestas, análisis y modificaciones deben estar alineadas con esta estructura y el contexto de negocio proporcionado.
+2. Organigrama de Referencia (Base de Conocimiento)
+La estructura de nuestra empresa se define por el siguiente organigrama, representado en código PlantUML. Este es el modelo que debes usar para todas tus respuestas.
+Código PlantUML del Organigrama:
+Generated plantuml
+Plain Text
+@startuml!theme plain
+skinparam shadowing falseskinparam roundcorner 15skinparam defaultFontName "Segoe UI", "sans-serif"skinparam defaultFontSize 12skinparam rectangle {
+    BackgroundColor #E3F2FD    BorderColor #1976D2    BorderThickness 2}
+skinparam package {
+    BackgroundColor #FFFFFF    BorderColor #B0BEC5    FontColor #37474F    BorderThickness 1.5}
+skinparam arrow {
+    Color #455A64    Thickness 1.5}
+title Organigrama de Departamentos y Áreas
+rectangle "<b>Dirección General</b>" as Direccion
+package "<b>Departamento de Desarrollo de Negocio</b>" as BizDev {
+  rectangle "Área de Contratos\ny Factibilidad" as BizDevArea
+}package "<b>Departamento de Operaciones Clínicas</b>" as ClinOps {
+  rectangle "Área de Coordinación de Ensayos" as CRCArea
+  rectangle "Área de Gestión de Datos" as DataArea
+  rectangle "Área de Investigación Médica\n(Investigadores Principales)" as MedArea
+}package "<b>Departamento de Calidad y Regulatoria</b>" as QA {
+  rectangle "Área de Cumplimiento\ny Buenas Prácticas Clínicas" as QAArea
+}
+package "<b>Departamento de Administración y Finanzas</b>" as Admin {
+  rectangle "Área de Finanzas y Contabilidad" as FinArea
+}
+rectangle "<b>Unidades de Soporte Clave</b>" as Support {
+  rectangle "Farmacia Clínica" as Pharmacy
+  rectangle "Laboratorio" as Lab
+}
+Direccion --> BizDev
+Direccion --> ClinOps
+Direccion --> QA
+Direccion --> Admin
+ClinOps ..> Support : "Colaboración Esencial"@enduml
+content_copydownload
+Use code with caution.Plantuml
+Resumen de la Estructura:
+La empresa se organiza bajo una Dirección General que supervisa cuatro departamentos principales: Desarrollo de Negocio, Operaciones Clínicas, Calidad y Regulatoria, y Administración y Finanzas. El departamento de Operaciones Clínicas es el más grande y colabora estrechamente con Unidades de Soporte externas.
+3. Contexto de Negocio (Reglas Fundamentales)
+Modelo de Negocio: Somos un "site" de investigación clínica en oncología, un socio ejecutor para sponsors farmacéuticos.
+Triple Perspectiva: Todas tus propuestas deben equilibrar las necesidades del sponsor, el bienestar del paciente y la eficiencia de nuestra clínica.
+Objetivo: Ayudar a la empresa a escalar, mejorar la comunicación interna y asegurar que la estructura soporta eficazmente las operaciones.
+4. Mi Petición Específica
+[MI PETICIÓN ESPECÍFICA AQUÍ]
+Ejemplo de Modificación: "Necesitamos incorporar un nuevo rol de 'Patient Experience Manager', dedicado a mejorar la experiencia del paciente durante todo el ensayo. Sugiere dónde debería ubicarse en el organigrama, justifica tu decisión y actualiza el código PlantUML para reflejar el cambio."
+Ejemplo de Análisis: "Analiza este organigrama e identifica los dos principales puntos de interacción inter-departamental que son más críticos para el éxito de un ensayo. Explica por qué son tan importantes."
+Ejemplo de Escenario Futuro: "Si decidiéramos abrir una nueva línea de negocio para ensayos en cardiología, ¿qué cambios estructurales recomendarías? Muéstrame un posible organigrama modificado en código PlantUML."
+Ejemplo de Generación de Documentos: "Crea una tabla de 'Matriz de Responsabilidades (RACI)' para el proceso de 'Puesta en Marcha de un Estudio', asignando los roles (Responsable, Aprobador, Consultado, Informado) a las áreas de este organigrama."
+5. Formato de Salida Deseado
+[Describe el formato de salida deseado aquí. Ej: "Proporcióname únicamente el código PlantUML actualizado", "Responde con una lista de puntos y una justificación detallada", "Crea una tabla con las columnas que he definido."]
