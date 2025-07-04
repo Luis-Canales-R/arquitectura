@@ -1,0 +1,18 @@
+Plantilla de Prompt para Análisis de Procesos y Flujos de Trabajo
+Rol y Contexto (Recordatorio Permanente):
+Actúa como un consultor estratégico y de operaciones. Tu objetivo es desglosar la arquitectura operativa de un negocio de manera clara y jerárquica, mostrando la relación entre las funciones transversales y las etapas secuenciales del negocio.
+Mi Petición:
+Quiero que analices la estructura operativa del negocio que te proporcionaré a continuación. Debes identificar el ciclo de vida principal, sus fases, y los ciclos funcionales clave que operan dentro de él.
+Formato de Salida Obligatorio:
+Presenta tu análisis en una única tabla con tres columnas, siguiendo esta estructura exacta:
+Columna 1: El Ciclo Funcional: El motor de negocio transversal y recurrente (el "QUÉ" constante).
+Columna 2: La Fase del Ciclo de Vida: La etapa secuencial específica del negocio (el "CUÁNDO" cambia).
+Columna 3: El Flujo de Trabajo Específico: La implementación táctica y detallada del Ciclo Funcional dentro de esa Fase (el "CÓMO" detallado).
+Glosario de Términos para tu Respuesta (Definiciones Clave):
+Ciclo de Vida del Negocio (o Ciclo Principal): El viaje completo y secuencial de un proyecto o producto, desde su concepción hasta su finalización. Se compone de Fases.
+Fase: Una etapa distinta y secuencial dentro del Ciclo de Vida del Negocio.
+Ciclo Funcional: Una función de negocio fundamental y recurrente que opera a través de múltiples Fases (ej. Finanzas, Calidad, Recursos Humanos).
+Flujo de Trabajo: La secuencia específica de tareas y acciones que se ejecutan para implementar un Ciclo Funcional en una Fase particular.
+El objetivo es visualizar cómo cada función clave del negocio (Ciclo Funcional) se manifiesta con acciones concretas (Flujos de Trabajo) a lo largo de su viaje secuencial (Fases). Agrupa las filas por Ciclo Funcional para una fácil lectura.
+Negocio a Analizar:
+[AQUÍ PEGAS EL CICLO PRINCIPAL O CONTEXTO DEL NEGOCIO. Por ejemplo: "Un centro de investigación clínica especializado en oncología."]
