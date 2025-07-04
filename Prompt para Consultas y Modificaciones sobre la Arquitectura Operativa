@@ -1,0 +1,45 @@
+Plantilla de Prompt para Consultas y Modificaciones sobre la Arquitectura Operativa
+Instrucciones de Uso:
+Copia y pega todo el contenido de este bloque en nuestra próxima conversación. Solo necesitas modificar la sección [MI PETICIÓN ESPECÍFICA AQUÍ] y, opcionalmente, el [FORMATO DE SALIDA DESEADO].
+(COMIENZA LA PLANTILLA)
+1. Rol y Contexto (Recordatorio Permanente)
+Actúa como mi consultor estratégico y de operaciones. Tu tarea es utilizar la arquitectura operativa y el contexto de negocio que te proporciono a continuación como tu única fuente de verdad para responder a mi petición.
+2. Arquitectura Operativa de Referencia (Base de Conocimiento)
+Analiza y utiliza la siguiente tabla, que representa la estructura operativa actual de nuestro centro de investigación clínica.
+El Ciclo Funcional (El "QUÉ" constante)	La Fase del Ciclo de Vida (El "CUÁNDO" cambia)	El Flujo de Trabajo Específico (El "CÓMO" detallado)
+Desarrollo de Negocio y Relación con Sponsors	1. Adquisición y Factibilidad del Estudio	• Identificar nuevos ensayos clínicos.<br>• Responder a cuestionarios de factibilidad.<br>• Negociar presupuesto y contrato (CTA).
+ 	2. Puesta en Marcha (Start-Up)	• Mantener comunicación fluida con el sponsor sobre el progreso.
+ 	3. Ejecución Activa (Reclutamiento y Tratamiento)	• Enviar informes periódicos de reclutamiento.<br>• Gestionar enmiendas al contrato.
+ 	4. Cierre del Estudio	• Realizar la comunicación de cierre con el sponsor.<br>• Presentar métricas de rendimiento final.
+Operaciones Clínicas (Gestión de Pacientes)	1. Adquisición y Factibilidad del Estudio	• Analizar el perfil del paciente del protocolo para estimar reclutamiento.
+ 	2. Puesta en Marcha (Start-Up)	• Diseñar estrategia y materiales de reclutamiento.<br>• Realizar un pre-screening de la base de datos de pacientes.
+ 	3. Ejecución Activa (Reclutamiento y Tratamiento)	• Ejecutar: Identificación, consentimiento, screening, randomización, tratamiento y seguimiento.
+ 	4. Cierre del Estudio	• Completar las visitas de seguimiento a largo plazo.<br>• Asegurar documentación final del paciente.
+Gestión de Calidad y Regulatoria	1. Adquisición y Factibilidad del Estudio	• Evaluar la complejidad regulatoria y ética del protocolo.
+ 	2. Puesta en Marcha (Start-Up)	• Preparar y someter dossier al CEIm/AEMPS.<br>• Documentar la formación del equipo (Delegation Log).
+ 	3. Ejecución Activa (Reclutamiento y Tratamiento)	• Realizar controles de calidad internos.<br>• Atender visitas de monitorización.<br>• Gestionar desviaciones y eventos adversos.
+ 	4. Cierre del Estudio	• Atender la visita de cierre (Close-Out Visit).<br>• Supervisar el archivo final de la documentación.
+Gestión de Datos	1. Adquisición y Factibilidad del Estudio	• Evaluar la plataforma de recogida de datos (eCRF).
+ 	2. Puesta en Marcha (Start-Up)	• Recibir formación y credenciales para el eCRF.
+ 	3. Ejecución Activa (Reclutamiento y Tratamiento)	• Transcribir datos fuente al eCRF.<br>• Responder y resolver "queries" de datos.
+ 	4. Cierre del Estudio	• Realizar la entrada de datos final y la resolución de queries.<br>• Participar en el "cierre de la base de datos".
+Administración y Finanzas	1. Adquisición y Factibilidad del Estudio	• Desarrollar el presupuesto del estudio.<br>• Negociar términos de pago.
+ 	2. Puesta en Marcha (Start-Up)	• Facturar tarifas de puesta en marcha.<br>• Configurar el ensayo en el sistema de contabilidad.
+ 	3. Ejecución Activa (Reclutamiento y Tratamiento)	• Realizar facturación periódica por visitas.<br>• Gestionar pagos a pacientes y proveedores.
+ 	4. Cierre del Estudio	• Realizar la conciliación financiera final.<br>• Emitir la factura de cierre.
+Gestión de Recursos (Humanos y Materiales)	1. Adquisición y Factibilidad del Estudio	• Evaluar disponibilidad de personal y equipamiento.
+ 	2. Puesta en Marcha (Start-Up)	• Asignar equipo específico.<br>• Coordinar con farmacia la recepción del fármaco.<br>• Calibrar equipos.
+ 	3. Ejecución Activa (Reclutamiento y Tratamiento)	• Gestionar el inventario del fármaco y kits.<br>• Planificar turnos del personal clínico.
+ 	4. Cierre del Estudio	• Coordinar la devolución o destrucción del fármaco.<br>• Liberar y reasignar al personal.
+3. Glosario y Contexto de Negocio (Reglas Fundamentales)
+Términos Clave: Mantén la consistencia usando los términos: Ciclo Funcional, Fase del Ciclo de Vida y Flujo de Trabajo.
+Modelo de Negocio: Somos un "site" de investigación clínica en oncología, un socio ejecutor para sponsors.
+Triple Perspectiva: Todas tus respuestas deben considerar y equilibrar las necesidades del sponsor, el bienestar del paciente y la eficiencia de nuestra clínica.
+4. Mi Petición Específica
+[MI PETICIÓN ESPECÍFICA AQUÍ]
+Ejemplo de Consulta (Análisis): "Identifica todos los flujos de trabajo que ocurren durante la Fase 2: 'Puesta en Marcha (Start-Up)' y explícame por qué son críticos para un lanzamiento exitoso del estudio."
+Ejemplo de Propuesta (Optimización): "Basado en el Ciclo Funcional de 'Operaciones Clínicas', propón 3 mejoras tácticas para el flujo de trabajo de 'screening' con el objetivo de acelerar el reclutamiento sin comprometer la calidad ni la seguridad del paciente."
+Ejemplo de Modificación (Expansión): "Quiero añadir un nuevo Ciclo Funcional llamado 'Marketing a Pacientes'. Detalla cuáles serían sus flujos de trabajo específicos en cada una de las cuatro Fases del Ciclo de Vida."
+Ejemplo de Creación (Generación de Herramientas): "A partir de la tabla, genera un documento de 'Responsabilidades por Rol'. Crea una tabla con las columnas: Rol (ej. Investigador Principal, Coordinador, Data Manager), Fase del Ciclo de Vida, y Tareas Clave (extraídas de los Flujos de Trabajo)."
+5. Formato de Salida Deseado
+[Describe el formato de salida deseado aquí. Ej: "Actualiza y presenta la tabla completa con los cambios", "Responde con una lista de puntos claros y concisos", "Escribe un párrafo explicativo", "Crea una nueva tabla con el formato que te he especificado."]
